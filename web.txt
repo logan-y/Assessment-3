@@ -1,0 +1,5 @@
+
+
+The internet "works" in the operational sense of transmitting and receiving data through a set of standards (protocols) that involve directing machines to send data between defined locations. Internet browser users will type in a specific set of characters (or select a link through various means) and direct the machine to receive data from that location. This set of characters is known as a URL, or uniform resource locator. The browser will then interact with the data available from that URL via either HTTP or HTTPS, which stands for Hyper Text Transfer Protocol (Secure). 
+
+The browser will display information from the site primarily in HTML, which stands for Hyper Text Markup Language. The hyper text as I understand it, refers to the speed at which text is transferred and utilized to display data. Ergo, the transfer protocol for this data (in text) is defined by the developer and enables the information channel between the user and the webpage.
