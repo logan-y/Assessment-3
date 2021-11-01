@@ -1,10 +1,10 @@
 body {
-  background: #ddd;
-  margin: 1rem;
+  background: #FFE099;
+  margin: auto;
   padding: 1rem;
   max-width: 500px;
   margin: 2rem auto;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 nav {
@@ -28,11 +28,55 @@ a:visited {
 	color: crimson;
 }
 
+img {
+	max-width: 600px;
+}
 
 input {
 	display: block;
+}	
+.favBtns button{
+	background-color: #F1DB6A;
+	display: block;
+	width: 100%;
+	border: solid;
+	padding: 14px 28px;
+	font-size: 16px;
+	cursor: pointer;
+	text-align: center;
+}
+.homeBlrb{
+	font-size: 18px;
+	text-align: center;
 }
 
-img {
-	max-width: 300px;
+.skillset{
+	justify-content: center;
+	text-align: center;
+
+}
+.interests ol{
+	font-size: 24px;
+	background-color: #DABFFF;
+	
+}
+.saeProfile {
+	color: slateblue;
+    text-align: center;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 11px;
+}
+#saePics {
+	margin: auto;
+	width: 75%;
+}
+#filmDev {
+	max-width: 400px;
+	margin: 0;
+}
+#filmRoll{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%
 }

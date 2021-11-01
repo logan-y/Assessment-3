@@ -3,7 +3,6 @@
 <head>
 	<title>Homepage</title>
 	<link href="styles.css" rel="stylesheet">
-
 </head>
 <body>
 	<nav>
@@ -15,22 +14,44 @@
 	</nav>
 
 	<content>
-		<h1>Welcome to this little website.</h1>
-		<p>Hello, world!</p>
+		<h1 style = text-align:center>Welcome to this little website.</h1>
+		<p class = "homeBlrb">
+			This website includes a beautiful picture of my furless baby Saetia. I hope you enjoy, she is very sassy but I promise she has a heart of gold! 
+		</p>
 
-		<img src="https://pbs.twimg.com/profile_images/1267905793610772480/rks7KARB_400x400.jpg">
+		<img src="imgs/sae4.jpg" alt = "Saetia bluebonnet pic 2018" id = "saePics" style="display:block;">
+		<p class = "saeProfile">This is Saetia!</p>
 
-		<h2>Contact Us</h2>
+			<ul class = "homeBlrb">
+				<li>Thank you kindly for your time spent here.</li><br>
+				<li>You are such a sweet, warm soul and an instant friend.</li><br>
+				<li>Only the BEST of friends (like yourself) would join me here AAAND they would like/follow/subscribe. Just saying. :-)</li><br>
+			</ul>
+
+		<h2 style = text-align:center>Contact Us</h2>
 		<form id="contact">
 			Your name:
-			<input type="text">
+			<input style = display:inline-block type="text"><br>
 
 			Message:
-			<input type="textarea">
+			<input style = display:inline-block type="textarea"><br>
 
-			<input type="submit">
-
-
+			<input style = display:inline-block type="submit">
+			<br>
+			How did you hear about Saetia?
+			<br><br>
+			<label class="chexbx" id = "goog">The Googleheim!
+				<input type="checkbox">
+				<span class="chkmrk"></span>
+			</label>
+			<label class="chexbx" id = "besties">One of your many, many friends?
+				<input type="checkbox">
+				<span class="chkmrk"></span>
+			</label>
+			<label class="chexbx" id = "elsewhere">Other...
+				<input type="checkbox">
+				<span class="chkmrk"></span>
+			</label>
 		</form>
 
 	</content>
